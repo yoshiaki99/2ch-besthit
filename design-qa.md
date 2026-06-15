@@ -5,6 +5,7 @@
 - Full static copy of `http://yet.s61.xrea.com/mt/`.
 - Same-domain pages under `/mt/` were crawled and saved locally.
 - External sites were not copied.
+- Published with GitHub Pages: `https://yoshiaki99.github.io/2ch-besthit-responsive-20260615/`
 
 **Evidence**
 - Fetch report: `mirror-report.txt`
@@ -23,6 +24,9 @@
 - Top page desktop 1280px: no horizontal overflow.
 - Header title desktop 1280px: `padding-left: 15px`, title left edge at 15px.
 - Top page mobile 390px: no horizontal overflow.
+- Published URL: HTTP 200.
+- Published page: title and H1 are `2ちゃんねるベストヒット`.
+- Published page: search, RSS, and Powered by Movable Type UI are absent.
 - Article page desktop 1280px: no horizontal overflow.
 - Article page mobile 390px: no horizontal overflow.
 - Category page desktop 1280px: no horizontal overflow.

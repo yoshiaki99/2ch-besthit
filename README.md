@@ -2,6 +2,10 @@
 
 元サイト: http://yet.s61.xrea.com/mt/
 
+公開URL: https://yoshiaki99.github.io/2ch-besthit-responsive-20260615/
+
+GitHubリポジトリ: https://github.com/yoshiaki99/2ch-besthit-responsive-20260615
+
 ## 内容
 
 - 同一サイト内のトップ、月別、カテゴリ、カテゴリ分割ページ、個別記事、画像ページ、画像ファイルをローカル保存。
@@ -24,6 +28,8 @@
 ## 確認方法
 
 `index.html` をブラウザで開くと、コピーしたサイトをローカルで閲覧できます。
+
+公開版は上記の公開URLから閲覧できます。
 
 ## 主な確認スクリーンショット
 
