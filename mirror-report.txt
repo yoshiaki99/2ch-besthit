@@ -1,0 +1,5 @@
+base_url=http://yet.s61.xrea.com/mt/
+fetched_urls=731
+html_files=707
+asset_files=25
+failures=0

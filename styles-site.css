@@ -1,0 +1,428 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0 0 20px;
+  background: #fff;
+  color: #000;
+  font-family: Verdana, "MS PGothic", Osaka, Arial, sans-serif;
+  line-height: 1.4;
+}
+
+a:link {
+  color: #003366;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #660000;
+  text-decoration: underline;
+}
+
+a:active,
+a:hover {
+  color: #999;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  padding: 15px;
+}
+
+#banner {
+  padding-left: 15px;
+  color: #333;
+  font-size: x-large;
+  font-weight: normal;
+}
+
+#banner a,
+#banner a:link,
+#banner a:visited,
+#banner a:active,
+#banner a:hover {
+  color: #333;
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+.description {
+  margin: 0;
+  color: #333;
+  font-size: small;
+}
+
+.search {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  padding-top: 4px;
+}
+
+.search input[type="search"] {
+  width: 176px;
+  max-width: 100%;
+  min-height: 28px;
+  border: 1px solid #999;
+  font: inherit;
+}
+
+.search button {
+  min-height: 28px;
+  border: 1px solid #999;
+  background: #f2f2f2;
+  color: #000;
+  font: inherit;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 190px;
+  gap: 0;
+  width: 100%;
+}
+
+#content {
+  min-width: 0;
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+.content {
+  padding: 15px;
+}
+
+.sidebar {
+  width: 190px;
+  padding-right: 0;
+  text-align: left;
+}
+
+.blogbody {
+  margin: 0 0 25px;
+  background: #fff;
+  color: #000;
+  font-size: small;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+.blogbody p {
+  margin: 1em 0;
+}
+
+.blogbody ul {
+  margin: 1em 0;
+  padding-left: 24px;
+}
+
+.blogbody a,
+.blogbody a:link,
+.blogbody a:visited,
+.blogbody a:active,
+.blogbody a:hover {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.title {
+  color: #666;
+  font-size: medium;
+}
+
+.date {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #999;
+  color: #333;
+  font-size: large;
+  font-weight: bold;
+}
+
+.posted {
+  margin-bottom: 25px;
+  color: #000;
+  font-size: x-small;
+}
+
+blockquote {
+  margin: 5px 0;
+  padding: 10px;
+  overflow-wrap: anywhere;
+  background-color: #fff3cc;
+  color: #000;
+}
+
+.menu {
+  margin-bottom: 15px;
+  background: #fff;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.side {
+  padding: 2px;
+  background: #fff;
+  color: #333;
+  font-size: x-small;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+.sidetitle {
+  margin-top: 20px;
+  padding: 2px;
+  background: #fff;
+  color: #666600;
+  font-size: small;
+  font-weight: normal;
+  letter-spacing: .3em;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.syndicate {
+  margin-top: 15px;
+  padding: 2px;
+  background: #fff;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: xx-small;
+  line-height: 1.4;
+}
+
+.powered {
+  margin-top: 10px;
+  padding: 2px;
+  background: #fff;
+  color: #666;
+  font-size: x-small;
+  line-height: 1.4;
+}
+
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 720px) {
+  body {
+    margin-bottom: 12px;
+  }
+
+  .site-header {
+    display: block;
+    padding: 12px;
+  }
+
+  #banner a,
+  #banner a:link,
+  #banner a:visited,
+  #banner a:active,
+  #banner a:hover {
+    font-size: 1.65rem;
+    line-height: 1.2;
+  }
+
+  .description {
+    margin-top: 4px;
+    line-height: 1.5;
+  }
+
+  .search {
+    width: 100%;
+    margin-top: 12px;
+    padding-top: 0;
+  }
+
+  .search input[type="search"] {
+    flex: 1 1 auto;
+    width: auto;
+    min-height: 36px;
+  }
+
+  .search button {
+    min-height: 36px;
+    padding: 0 12px;
+  }
+
+  .layout {
+    display: block;
+  }
+
+  .content {
+    padding: 12px;
+  }
+
+  .blogbody {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  .date {
+    font-size: 1.08rem;
+    line-height: 1.4;
+  }
+
+  .title {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  blockquote {
+    margin: 8px 0;
+    padding: 10px;
+    line-height: 1.7;
+  }
+
+  .posted {
+    font-size: 0.75rem;
+    line-height: 1.5;
+  }
+
+  .sidebar {
+    width: auto;
+    padding: 0 12px 18px;
+  }
+
+  .sidetitle {
+    margin-top: 18px;
+    border-bottom: 1px solid #ccc;
+    letter-spacing: .18em;
+  }
+
+  .side {
+    font-size: 0.82rem;
+    line-height: 1.65;
+  }
+
+  .link-list a {
+    padding: 2px 0;
+  }
+}
+
+@media (max-width: 380px) {
+  #banner a,
+  #banner a:link,
+  #banner a:visited,
+  #banner a:active,
+  #banner a:hover {
+    font-size: 1.45rem;
+  }
+
+  .search button {
+    padding: 0 10px;
+  }
+}
+
+
+/* Full-site mirror compatibility for original Movable Type table templates. */
+body > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+body > table:first-of-type td {
+  vertical-align: top;
+}
+
+body > table:first-of-type td:last-child {
+  padding: 15px 15px 0 0;
+}
+
+body > table:nth-of-type(2) > tbody > tr > td:first-child {
+  width: auto;
+}
+
+body > table:nth-of-type(2) > tbody > tr > td:last-child {
+  width: 190px;
+  text-align: left;
+}
+
+#links {
+  width: 190px;
+  text-align: left;
+}
+
+#links .sidetitle,
+#links .side,
+#links .syndicate,
+#links .powered {
+  text-align: left;
+}
+
+.blog {
+  padding: 15px;
+}
+
+@media (max-width: 720px) {
+  body > table,
+  body > table > tbody,
+  body > table > tbody > tr,
+  body > table > tbody > tr > td {
+    display: block;
+    width: 100% !important;
+  }
+
+  body > table:first-of-type td:last-child {
+    padding: 0 12px 10px;
+    text-align: left;
+  }
+
+  body > table:first-of-type form {
+    display: flex;
+    gap: 4px;
+    width: 100%;
+  }
+
+  body > table:first-of-type input#search {
+    flex: 1 1 auto;
+    width: auto;
+    min-height: 36px;
+  }
+
+  body > table:first-of-type input[type="submit"] {
+    min-height: 36px;
+    padding: 0 12px;
+  }
+
+  .blog {
+    padding: 12px;
+  }
+
+  #links {
+    width: auto;
+    padding: 0 12px 18px;
+  }
+
+  .blogbody {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+}
