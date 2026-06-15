@@ -33,6 +33,7 @@
 - Published page: search, RSS, and Powered by Movable Type UI are absent.
 - Published mobile 390px: viewport meta active, `(max-width: 720px)` matches, top table switches to block layout, no horizontal overflow.
 - Published mobile image page 390px: 640px source image shrinks to 390px, no horizontal overflow.
+- Mobile title spacing: title left edge is 12px, matching the body text edge within 1px; `#banner` has 8px top padding and no extra mobile left padding.
 - Article page desktop 1280px: no horizontal overflow.
 - Category page desktop 1280px: no horizontal overflow.
 
