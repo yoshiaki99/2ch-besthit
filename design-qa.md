@@ -31,6 +31,8 @@
 - Published URL: HTTP 200.
 - Published page: title and H1 are `2ちゃんねるベストヒット`.
 - Published page: search, RSS, and Powered by Movable Type UI are absent.
+- Published mobile 390px: viewport meta active, `(max-width: 720px)` matches, top table switches to block layout, no horizontal overflow.
+- Published mobile image page 390px: 640px source image shrinks to 390px, no horizontal overflow.
 - Article page desktop 1280px: no horizontal overflow.
 - Category page desktop 1280px: no horizontal overflow.
 
