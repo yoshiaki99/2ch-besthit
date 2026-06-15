@@ -2,9 +2,9 @@
 
 元サイト: http://yet.s61.xrea.com/mt/
 
-公開URL: https://yoshiaki99.github.io/2ch-besthit-responsive-20260615/
+公開URL: https://yoshiaki99.github.io/2ch-besthit/
 
-GitHubリポジトリ: https://github.com/yoshiaki99/2ch-besthit-responsive-20260615
+GitHubリポジトリ: https://github.com/yoshiaki99/2ch-besthit
 
 ## 内容
 

@@ -5,7 +5,7 @@
 - Full static copy of `http://yet.s61.xrea.com/mt/`.
 - Same-domain pages under `/mt/` were crawled and saved locally.
 - External sites were not copied.
-- Published with GitHub Pages: `https://yoshiaki99.github.io/2ch-besthit-responsive-20260615/`
+- Published with GitHub Pages: `https://yoshiaki99.github.io/2ch-besthit/`
 
 **Evidence**
 - Fetch report: `mirror-report.txt`
