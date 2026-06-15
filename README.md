@@ -10,6 +10,7 @@ GitHubリポジトリ: https://github.com/yoshiaki99/2ch-besthit
 
 - 同一サイト内のトップ、月別、カテゴリ、カテゴリ分割ページ、個別記事、画像ページ、画像ファイルをローカル保存。
 - HTMLはUTF-8へ変換。
+- 全HTMLにスマートフォン用のviewport指定を追加。
 - 旧Movable Typeの見た目をできるだけ維持し、スマートフォンでは1カラム表示になる共通CSSを適用。
 - 内部リンクはローカル相対パスへ変換。
 - 外部サイトへのリンクは元URLのまま保持。
@@ -24,6 +25,7 @@ GitHubリポジトリ: https://github.com/yoshiaki99/2ch-besthit
 - 画像/CSS/レポート等: 25件
 - 取得失敗: 0件
 - ローカルリンク検査: 14,689件確認、破損0件
+- viewport指定: HTML 707件すべてに追加済み
 
 ## 確認方法
 
